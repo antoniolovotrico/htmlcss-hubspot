@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  min-width: 1400px;
+}
+
 /* utility selector */
 .container {
   width: 1000px;
@@ -48,11 +53,23 @@ header .bg_lightblue {
 .float_left {
   float: left;
 }
+
+.float_right {
+  float: right;
+}
 /* utility selector */
 
 /* navigation */
 .navbar_top {
   height: 80px;
+}
+
+.left_top_menu {
+  width: 30%;
+}
+.right_top_menu {
+  width: 70%;
+  text-align: right;
 }
 
 .navbar_menu {
