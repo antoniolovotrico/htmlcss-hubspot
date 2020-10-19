@@ -28,7 +28,10 @@ header .bg_lightblue {
 }
 
 .bg_pink {
-  background-color: #FDF2EE;
+  background-image: url(../img/jumbotron.png);
+  background-color: #FEF6EF;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 .bg_water {
@@ -59,7 +62,7 @@ header .bg_lightblue {
   float: right;
 }
 
-nav a {
+a {
   text-transform: capitalize;
   text-decoration: none;
   color: #32495B;
@@ -69,15 +72,22 @@ nav a {
   line-height: 80px;
 }
 
-nav a:hover {
+a:hover {
   text-decoration: underline;
   color: #06A4BD;
 
 }
 
-nav a i {
+a i {
   padding-left: 10px;
   text-align: center;
+}
+
+.btn_orange {
+  color: white;
+  background-color: #FE785A;
+  border-radius: 5px;
+  padding: 20px 40px;
 }
 /* utility selector */
 
@@ -129,7 +139,7 @@ transform: translateY(-50%);
   margin: 0 15px;
 }
 
-.btn_orange {
+nav .btn_orange {
   color: white;
   background-color: #FE785A;
   border-radius: 5px;
@@ -146,6 +156,32 @@ transform: translateY(-50%);
 /* header */
 .hero_header {
   height: 610px;
+
+}
+
+.hero_text {
+  width: 665px;
+  padding-top: 60px;
+}
+
+.hero_text h1 {
+  color: #32495B;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.hero_text p {
+  color: #32495B;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.hero_text h6 {
+  color: #32495B;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 30px;
 }
 
 .bottom_header {
