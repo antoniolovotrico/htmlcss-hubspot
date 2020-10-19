@@ -6,11 +6,12 @@
 
 body {
   min-width: 1400px;
+  font-family: sans-serif;
 }
 
 /* utility selector */
 .container {
-  width: 1000px;
+  width: 1400px;
   margin: auto;
 }
 
@@ -57,6 +58,27 @@ header .bg_lightblue {
 .float_right {
   float: right;
 }
+
+nav a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #32495B;
+  font-size: 15px;
+  font-weight: 350;
+  padding: 0 10px;
+  line-height: 80px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #06A4BD;
+
+}
+
+nav a i {
+  padding-left: 10px;
+  text-align: center;
+}
 /* utility selector */
 
 /* navigation */
@@ -67,6 +89,7 @@ header .bg_lightblue {
 .left_top_menu {
   width: 30%;
 }
+
 .right_top_menu {
   width: 70%;
   text-align: right;
@@ -74,6 +97,49 @@ header .bg_lightblue {
 
 .navbar_menu {
   height: 80px;
+  position: relative;
+}
+
+.logo_nav {
+width: 40%;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.nav_menu {
+  width: 60%;
+  text-align: right;
+}
+
+#world_icon {
+  padding-right: 10px;
+  padding-left: 0px;
+}
+
+#search_icon {
+  color: #06A4BD;
+}
+
+.btn_border {
+  color: #FE785A;
+  border: 1px solid #FE785A;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 15px;
+}
+
+.btn_orange {
+  color: white;
+  background-color: #FE785A;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn_orange:hover{
+  background-color: rgba(255, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
 }
 /* navigation */
 
