@@ -5,7 +5,7 @@
 }
 
 body {
-  min-width: 1400px;
+  min-width: 1350px;
   font-family: sans-serif;
 }
 
@@ -18,7 +18,7 @@ body {
 
 /* utility selector */
 .container {
-  width: 1400px;
+  width: 1350px;
   margin: auto;
 }
 
@@ -74,7 +74,7 @@ a {
   text-transform: capitalize;
   text-decoration: none;
   color: #32495B;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 350;
   padding: 0 10px;
   line-height: 80px;
@@ -201,12 +201,14 @@ nav .btn_orange {
 /* main section service */
 .service .row_1 {
   height: 415px;
+  width: 50%;
   text-align: center;
   padding-top: 50px;
 }
 
 .service .row_2 {
-  height: 322px;
+  height: 365px;
+  padding-top: 75px;
 }
 
 .service .row_3 {
@@ -228,6 +230,66 @@ nav .btn_orange {
 #cubo {
   height: 190px;
 }
+
+.service .row_1 h2 {
+  color: #33475B;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.service .row_1 p {
+  color: #33475B;
+  line-height: 30px;
+}
+
+#col_free_hubspot {
+  width:30%;
+  text-align: center;
+}
+
+#libro {
+  height: 120px;
+}
+
+.col_crm {
+  width: 60%;
+  padding-left: 40px;
+}
+
+.col_crm h3 {
+  color: #33475B;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.col_crm p {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  color: #33475B;
+  margin-bottom: 30px;
+}
+
+.col_crm h4 {
+  display: inline-block;
+  vertical-align: middle;
+  color: #33475B;
+}
+
+.col_crm hr {
+  margin-left: 80px;
+  width:60%;
+  display: inline-block;
+}
+
+.check_icon {
+  background-color: #FE785A;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+  margin: 30px 10px;
+}
+
 /* main section service */
 
 /* main section community */
