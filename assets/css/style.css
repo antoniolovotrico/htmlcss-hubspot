@@ -409,7 +409,7 @@ nav .btn_orange {
 
 /* main section testimonial */
 .testimonial .row_1 {
-  width: 860px;
+  width: 1140px;
   padding: 50px 0;
 }
 
@@ -421,30 +421,74 @@ nav .btn_orange {
 
 .box_Title_testimonial {
   width: 340px;
-  height: 270px;
-  border: 1px solid black;
-  display: inline-block;
+  height: 170px;
+  text-align: left;
+  padding-right: 120px;
 }
 
-.right_box_firstbox {
-  position: relative;
-  display: inline-block;
-  width: 520px;
-  height: 270px;
+.box_Title_testimonial h2 {
+  font-size: 50px;
+  color: #33475B;
+  padding-bottom: 40px;
+}
+
+.box_Title_testimonial p {
+  color: #33475B;
+  line-height: 30px;
 }
 
 .box_icone_sponsor {
-  width: 520px;
-  height: 135px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 700px;
+  height: 170px;
+  text-align: right;
+  padding-top: 20px;
+  margin-left: 80px;
+
+}
+
+.first_row_icone , .second_row_icone{
+  width: 700px;
+  height: 55px;
+}
+
+.sponsor_image {
+  width: 150px;
 }
 
 .col_a , .col_b , .col_c , .col_d {
   width: 25%;
   height: 65px;
-  border: 1px solid black;
+}
+
+.last_call_to_action {
+  width: 40%;
+}
+
+.last_call_to_action h2 {
+  font-size: 32px;
+  color: #33475B;
+  padding: 40px 0px;
+}
+
+.last_call_to_action p {
+  line-height: 30px;
+  color: #33475B;
+  padding: 20px 0px;
+}
+
+.last_call_to_action h5 {
+  font-weight: lighter;
+  color: #33475B;
+  padding: 40px 0px;
+}
+
+.women_smile {
+  width: 40%;
+  text-align: right;
+}
+
+#smile {
+  height: 400px;
 }
 /* main section testimonial */
 
