@@ -85,7 +85,6 @@ a {
 a:hover {
   text-decoration: underline;
   color: #06A4BD;
-
 }
 
 a i {
@@ -236,7 +235,7 @@ nav .btn_orange {
 .service .col_center {
   width: 30%;
   height: 655px;
-  margin: 50px;
+  margin: 50px 5%;
   padding-top: 25px;
 }
 
@@ -299,7 +298,7 @@ nav .btn_orange {
   margin: 30px 10px;
 }
 
- ul  li {
+ ul li {
   list-style: none;
   text-align: left;
   font-size: 15px;
@@ -496,4 +495,72 @@ nav .btn_orange {
 .foot_box {
   height: 620px;
 }
+
+.footcol {
+  width: 25%;
+
+}
+
+.foot_box h4 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.foot_box ul li {
+ list-style: none;
+ text-align: left;
+}
+
+.foot_box a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #CBD6E2;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0;
+}
+
+.foot_box a:hover {
+  color: #06A4BD;
+}
+
+#btn_grey {
+  font-size: 14px;
+  color: #32495B;
+  background-color: #DADEE0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.foot_box .fab{
+  padding-top: 20px;
+  padding-right: 12px;
+}
+
+.foot_box h5 {
+  text-align: center;
+  margin-top: 420px;
+  margin-bottom: 10px;
+}
+
+.foot_box h5 a {
+  margin-right: 20px;
+}
+
+.foot_box hr {
+  margin-bottom: 30px;
+}
+
+#copyright {
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+#legal_stuff {
+  padding-right: 20px;
+}
+
 /* footer */
